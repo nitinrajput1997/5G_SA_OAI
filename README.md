@@ -57,3 +57,8 @@ docker image tag rdefosseoai/oai-upf-vpp:develop oai-upf-vpp:develop
 docker image tag rdefosseoai/oai-spgwu-tiny:develop oai-spgwu-tiny:develop
 docker image tag rdefosseoai/oai-nssf:develop oai-nssf:develop
 ```
+### Run oai 5G
+```bash
+cd ~/oai-cn5g-fed/docker-compose
+python3 core-network.py --type start-basic --fqdn yes --scenario 1
+```
